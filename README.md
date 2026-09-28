@@ -98,9 +98,9 @@ Full-stack systems · accessible technology · computer vision
 ## `> ./activity --parkour` <a id="-activity"></a>
 
 <div align="center">
-  <sub>Recent contribution activity · generated automatically</sub>
+  <sub>Contribution activity · animated sprite run</sub>
   <br /><br />
-  <img src="https://raw.githubusercontent.com/Adrix1412/Adrix1412/main/dist/parkour.svg" width="100%" alt="Parkour contribution activity animation" />
+  <img src="https://raw.githubusercontent.com/Adrix1412/Adrix1412/main/dist/parkour.gif" width="100%" alt="Itachi running through contribution activity" />
 </div>
 
 ## `> ls ./mission-control`
