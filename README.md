@@ -11,9 +11,13 @@
     <a href="#-activity"><img src="https://img.shields.io/badge/Activity-0F172A?style=for-the-badge&logo=githubactions&logoColor=4FC3C8" alt="Activity" /></a>
   </p>
 
-  <a href="mailto:adrian.duran.jimenez1@gmail.com"><img src="https://img.shields.io/badge/Available%20for-collaboration%20%26%20internships-4FC3C8?style=flat-square&labelColor=0F172A&color=4FC3C8" alt="Available for collaboration and internships" /></a>
+  <a href="mailto:adrixpro281@gmail.com"><img src="https://img.shields.io/badge/Available%20for-collaboration%20%26%20internships-4FC3C8?style=flat-square&labelColor=0F172A&color=4FC3C8" alt="Available for collaboration and internships" /></a>
   <img src="https://komarev.com/ghpvc/?username=Adrix1412&style=flat-square&color=4FC3C8&label=Profile+views" alt="Profile views" />
 
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Adrix1412/Adrix1412/main/assets/command-center.svg" width="100%" alt="Adrix command center" />
 </div>
 
 ## `> ssh adrix@ciudad-colon` <a id="-about"></a>
@@ -99,6 +103,16 @@ Full-stack systems · accessible technology · computer vision
   <img src="https://raw.githubusercontent.com/Adrix1412/Adrix1412/main/dist/parkour.svg" width="100%" alt="Parkour contribution activity animation" />
 </div>
 
+## `> ls ./mission-control`
+
+<table>
+  <tr>
+    <td width="33%" align="center"><h3>01 · Build</h3><sub>Turn ideas into working systems.</sub></td>
+    <td width="33%" align="center"><h3>02 · Learn</h3><sub>Strengthen the fundamentals behind every feature.</sub></td>
+    <td width="33%" align="center"><h3>03 · Ship</h3><sub>Document, test, improve, repeat.</sub></td>
+  </tr>
+</table>
+
 ## `> cat certifications.log`
 
 ```text
@@ -112,7 +126,7 @@ Full-stack systems · accessible technology · computer vision
 > “I'd rather ship something that's honestly half-broken than something that only looks finished. The broken part is where I actually learn something.”
 
 <div align="center">
-  <a href="mailto:adrian.duran.jimenez1@gmail.com"><img src="https://img.shields.io/badge/Let%27s%20build%20something-adrian.duran.jimenez1%40gmail.com-4FC3C8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email Adrián" /></a>
+  <a href="mailto:adrixpro281@gmail.com"><img src="https://img.shields.io/badge/Let%27s%20build%20something-adrixpro281%40gmail.com-4FC3C8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email Adrix" /></a>
   <br /><br />
   <sub>Life before death · Strength before weakness · Journey before destination</sub>
   <br /><br />
