@@ -15,6 +15,7 @@ export function buildParkourSVG(counts, opts = {}) {
     trackColor = "rgba(200,169,110,.25)",
     charColor = "#4FC3C8",
     duration = 14, // seconds for one full run across all days
+    spriteUrl = "https://raw.githubusercontent.com/Adrix1412/Adrix1412/main/assets/itachi-spritesheet.webp",
   } = opts;
 
   const n = counts.length;
@@ -55,7 +56,21 @@ export function buildParkourSVG(counts, opts = {}) {
   const totalWidth = n * (barWidth + barGap) + 40;
   const svgWidth = Math.max(width, totalWidth);
 
+  const runFrames = Array.from({ length: 8 }, (_, index) => {
+    const start = index / 8;
+    const end = (index + 1) / 8;
+    return `<g clip-path="url(#spriteClip)" opacity="0">
+      <g transform="translate(-32 -65) scale(.34)">
+        <image href="${spriteUrl}" x="-${index * 192}" y="-190" width="1536" height="1872" preserveAspectRatio="none" style="image-rendering:pixelated" />
+      </g>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;${start.toFixed(3)};${(end - 0.01).toFixed(3)};${end.toFixed(3)};1" dur=".72s" repeatCount="indefinite" />
+    </g>`;
+  }).join("\n    ");
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${trackHeight}" viewBox="0 0 ${svgWidth} ${trackHeight}">
+  <defs>
+    <clipPath id="spriteClip"><rect x="-32" y="-65" width="65" height="72" rx="3" /></clipPath>
+  </defs>
   <rect width="100%" height="100%" fill="${bg}" />
   <line x1="15" y1="${baseline + 4}" x2="${svgWidth - 15}" y2="${baseline + 4}" stroke="${trackColor}" stroke-width="1" />
 
@@ -66,34 +81,10 @@ export function buildParkourSVG(counts, opts = {}) {
   <path id="runPath" d="${path.trim()}" fill="none" stroke="none" />
 
   <g id="runner">
-    <ellipse cx="0" cy="12" rx="11" ry="2.5" fill="#061018" opacity=".55" />
-    <g id="pixelRunner">
-      <rect x="-6" y="-30" width="12" height="4" fill="#E8D5A0" />
-      <rect x="-8" y="-26" width="16" height="12" fill="#E8D5A0" />
-      <rect x="-8" y="-26" width="4" height="12" fill="#173042" />
-      <rect x="4" y="-25" width="4" height="4" fill="#173042" />
-      <rect x="-3" y="-22" width="3" height="3" fill="#07131e" />
-      <rect x="2" y="-22" width="3" height="3" fill="#07131e" />
-      <rect x="-2" y="-16" width="4" height="2" fill="#C98455" />
-      <rect x="-9" y="-13" width="18" height="15" fill="${charColor}" />
-      <rect x="-12" y="-10" width="3" height="9" fill="#E8D5A0" />
-      <rect x="9" y="-10" width="3" height="9" fill="#E8D5A0" />
-      <rect x="-4" y="-9" width="8" height="3" fill="#173042" opacity=".75" />
-      <g id="legFrameA">
-        <rect x="-8" y="2" width="6" height="8" fill="#173042" />
-        <rect x="2" y="2" width="6" height="8" fill="#173042" />
-        <rect x="-10" y="9" width="9" height="3" fill="#E8D5A0" />
-        <rect x="1" y="9" width="9" height="3" fill="#E8D5A0" />
-        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.48;.5;.98;1" dur=".32s" repeatCount="indefinite" />
-      </g>
-      <g id="legFrameB" opacity="0">
-        <rect x="-8" y="2" width="6" height="6" fill="#173042" />
-        <rect x="4" y="2" width="6" height="6" fill="#173042" />
-        <rect x="-12" y="7" width="10" height="3" fill="#E8D5A0" />
-        <rect x="4" y="7" width="10" height="3" fill="#E8D5A0" />
-        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.48;.5;.98;1" dur=".32s" repeatCount="indefinite" />
-      </g>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" keyTimes="0;.5;1" dur=".32s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="9" rx="14" ry="2.5" fill="#07131e" opacity=".5" />
+    <g id="itachiRunner">
+      ${runFrames}
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" keyTimes="0;.5;1" dur=".72s" repeatCount="indefinite" />
     </g>
     <animateMotion dur="${duration}s" repeatCount="indefinite" rotate="auto">
       <mpath href="#runPath" />
