@@ -11,7 +11,7 @@
     <a href="#-activity"><img src="https://img.shields.io/badge/Activity-0F172A?style=for-the-badge&logo=githubactions&logoColor=4FC3C8" alt="Activity" /></a>
   </p>
 
-  <a href="mailto:adrixpro281@gmail.com"><img src="https://img.shields.io/badge/Available%20for-collaboration%20%26%20internships-4FC3C8?style=flat-square&labelColor=0F172A&color=4FC3C8" alt="Available for collaboration and internships" /></a>
+  <a href="mailto:adrian.duran.jimenez1@gmail.com"><img src="https://img.shields.io/badge/Available%20for-collaboration%20%26%20internships-4FC3C8?style=flat-square&labelColor=0F172A&color=4FC3C8" alt="Available for collaboration and internships" /></a>
   <img src="https://komarev.com/ghpvc/?username=Adrix1412&style=flat-square&color=4FC3C8&label=Profile+views" alt="Profile views" />
 
 </div>
@@ -126,7 +126,7 @@ Full-stack systems · accessible technology · computer vision
 > “I'd rather ship something that's honestly half-broken than something that only looks finished. The broken part is where I actually learn something.”
 
 <div align="center">
-  <a href="mailto:adrixpro281@gmail.com"><img src="https://img.shields.io/badge/Let%27s%20build%20something-adrixpro281%40gmail.com-4FC3C8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email Adrix" /></a>
+  <a href="mailto:adrian.duran.jimenez1@gmail.com"><img src="https://img.shields.io/badge/Let%27s%20build%20something-adrian.duran.jimenez1%40gmail.com-4FC3C8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email Adrián" /></a>
   <br /><br />
   <sub>Life before death · Strength before weakness · Journey before destination</sub>
   <br /><br />

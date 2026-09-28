@@ -66,21 +66,34 @@ export function buildParkourSVG(counts, opts = {}) {
   <path id="runPath" d="${path.trim()}" fill="none" stroke="none" />
 
   <g id="runner">
-    <g>
-      <circle cy="-11" r="5.5" fill="${charColor}" />
-      <path d="M -4 -5 L 4 -5 L 6 7 L -6 7 Z" fill="${charColor}" />
-      <path d="M -4 6 L -8 14 M 4 6 L 8 14" fill="none" stroke="${charColor}" stroke-width="3" stroke-linecap="round">
-        <animate attributeName="d" dur="0.34s" repeatCount="indefinite"
-          values="M -4 6 L -8 14 M 4 6 L 8 14;M -4 6 L -1 14 M 4 6 L 11 9;M -4 6 L -8 14 M 4 6 L 8 14" />
-      </path>
-      <path d="M -5 -2 L -11 3 M 5 -2 L 11 2" fill="none" stroke="${charColor}" stroke-width="2.5" stroke-linecap="round">
-        <animate attributeName="d" dur="0.34s" repeatCount="indefinite"
-          values="M -5 -2 L -11 3 M 5 -2 L 11 2;M -5 -2 L -10 -5 M 5 -2 L 10 5;M -5 -2 L -11 3 M 5 -2 L 11 2" />
-      </path>
-      <circle cx="-2" cy="-12" r="0.9" fill="${bg}" />
-      <circle cx="2" cy="-12" r="0.9" fill="${bg}" />
-      <animateTransform attributeName="transform" type="translate"
-        values="0 0; 0 -2; 0 0" keyTimes="0;0.5;1" dur="0.34s" repeatCount="indefinite" />
+    <ellipse cx="0" cy="12" rx="11" ry="2.5" fill="#061018" opacity=".55" />
+    <g id="pixelRunner">
+      <rect x="-6" y="-30" width="12" height="4" fill="#E8D5A0" />
+      <rect x="-8" y="-26" width="16" height="12" fill="#E8D5A0" />
+      <rect x="-8" y="-26" width="4" height="12" fill="#173042" />
+      <rect x="4" y="-25" width="4" height="4" fill="#173042" />
+      <rect x="-3" y="-22" width="3" height="3" fill="#07131e" />
+      <rect x="2" y="-22" width="3" height="3" fill="#07131e" />
+      <rect x="-2" y="-16" width="4" height="2" fill="#C98455" />
+      <rect x="-9" y="-13" width="18" height="15" fill="${charColor}" />
+      <rect x="-12" y="-10" width="3" height="9" fill="#E8D5A0" />
+      <rect x="9" y="-10" width="3" height="9" fill="#E8D5A0" />
+      <rect x="-4" y="-9" width="8" height="3" fill="#173042" opacity=".75" />
+      <g id="legFrameA">
+        <rect x="-8" y="2" width="6" height="8" fill="#173042" />
+        <rect x="2" y="2" width="6" height="8" fill="#173042" />
+        <rect x="-10" y="9" width="9" height="3" fill="#E8D5A0" />
+        <rect x="1" y="9" width="9" height="3" fill="#E8D5A0" />
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.48;.5;.98;1" dur=".32s" repeatCount="indefinite" />
+      </g>
+      <g id="legFrameB" opacity="0">
+        <rect x="-8" y="2" width="6" height="6" fill="#173042" />
+        <rect x="4" y="2" width="6" height="6" fill="#173042" />
+        <rect x="-12" y="7" width="10" height="3" fill="#E8D5A0" />
+        <rect x="4" y="7" width="10" height="3" fill="#E8D5A0" />
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.48;.5;.98;1" dur=".32s" repeatCount="indefinite" />
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" keyTimes="0;.5;1" dur=".32s" repeatCount="indefinite" />
     </g>
     <animateMotion dur="${duration}s" repeatCount="indefinite" rotate="auto">
       <mpath href="#runPath" />
