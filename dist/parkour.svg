@@ -1,104 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1384" height="160" viewBox="0 0 1384 160">
-  <rect width="100%" height="100%" fill="#1e1408" />
-  <line x1="15" y1="144" x2="1369" y2="144" stroke="rgba(200,169,110,.25)" stroke-width="1" />
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+  <rect width="100%" height="100%" fill="#101827" />
+  <line x1="15" y1="144" x2="885" y2="144" stroke="rgba(79,195,200,.3)" stroke-width="1" />
 
   <g>
-    <rect x="20" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="36" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="52" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="68" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="84" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="100" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="116" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="132" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="148" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="164" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="180" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="196" y="126" width="10" height="14" rx="2" fill="#C8A96E" />
-    <rect x="212" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="228" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="244" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="260" y="40" width="10" height="100" rx="2" fill="#C8A96E" />
-    <rect x="276" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="292" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="308" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="324" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="340" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="356" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="372" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="388" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="404" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="420" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="436" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="452" y="126" width="10" height="14" rx="2" fill="#C8A96E" />
-    <rect x="468" y="111" width="10" height="29" rx="2" fill="#C8A96E" />
-    <rect x="484" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="500" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="516" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="532" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="548" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="564" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="580" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="596" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="612" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="628" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="644" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="660" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="676" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="692" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="708" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="724" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="740" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="756" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="772" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="788" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="804" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="820" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="836" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="852" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="868" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="884" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="900" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="916" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="932" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="948" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="964" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="980" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="996" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1012" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1028" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1044" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1060" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1076" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1092" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1108" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1124" y="126" width="10" height="14" rx="2" fill="#C8A96E" />
-    <rect x="1140" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1156" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1172" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1188" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1204" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1220" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1236" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1252" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1268" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1284" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1300" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1316" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1332" y="136" width="10" height="4" rx="2" fill="#2a1c0a" />
-    <rect x="1348" y="97" width="10" height="43" rx="2" fill="#C8A96E" />
+    <rect x="20" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="36" y="126" width="10" height="14" rx="2" fill="#4FC3C8" />
+    <rect x="52" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="68" y="111" width="10" height="29" rx="2" fill="#4FC3C8" />
+    <rect x="84" y="69" width="10" height="71" rx="2" fill="#4FC3C8" />
+    <rect x="100" y="126" width="10" height="14" rx="2" fill="#4FC3C8" />
+    <rect x="116" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="132" y="97" width="10" height="43" rx="2" fill="#4FC3C8" />
+    <rect x="148" y="54" width="10" height="86" rx="2" fill="#4FC3C8" />
+    <rect x="164" y="111" width="10" height="29" rx="2" fill="#4FC3C8" />
+    <rect x="180" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="196" y="126" width="10" height="14" rx="2" fill="#4FC3C8" />
+    <rect x="212" y="83" width="10" height="57" rx="2" fill="#4FC3C8" />
+    <rect x="228" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="244" y="111" width="10" height="29" rx="2" fill="#4FC3C8" />
+    <rect x="260" y="40" width="10" height="100" rx="2" fill="#4FC3C8" />
+    <rect x="276" y="126" width="10" height="14" rx="2" fill="#4FC3C8" />
+    <rect x="292" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="308" y="97" width="10" height="43" rx="2" fill="#4FC3C8" />
+    <rect x="324" y="111" width="10" height="29" rx="2" fill="#4FC3C8" />
+    <rect x="340" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="356" y="69" width="10" height="71" rx="2" fill="#4FC3C8" />
+    <rect x="372" y="126" width="10" height="14" rx="2" fill="#4FC3C8" />
+    <rect x="388" y="136" width="10" height="4" rx="2" fill="#173042" />
+    <rect x="404" y="83" width="10" height="57" rx="2" fill="#4FC3C8" />
+    <rect x="420" y="111" width="10" height="29" rx="2" fill="#4FC3C8" />
+    <rect x="436" y="126" width="10" height="14" rx="2" fill="#4FC3C8" />
+    <rect x="452" y="136" width="10" height="4" rx="2" fill="#173042" />
   </g>
 
-  <path id="runPath" d="M 25 122 Q 33 100 41 122 Q 49 100 57 122 Q 65 100 73 122 Q 81 100 89 122 Q 97 100 105 122 Q 113 100 121 122 Q 129 100 137 122 Q 145 100 153 122 Q 161 100 169 122 Q 177 100 185 122 Q 193 90 201 112 Q 209 90 217 122 Q 225 100 233 122 Q 241 100 249 122 Q 257 4 265 26 Q 273 4 281 122 Q 289 100 297 122 Q 305 100 313 122 Q 321 100 329 122 Q 337 100 345 122 Q 353 100 361 122 Q 369 100 377 122 Q 385 100 393 122 Q 401 100 409 122 Q 417 100 425 122 Q 433 100 441 122 Q 449 90 457 112 Q 465 75 473 97 Q 481 75 489 122 Q 497 100 505 122 Q 513 100 521 122 Q 529 100 537 122 Q 545 100 553 122 Q 561 100 569 122 Q 577 100 585 122 Q 593 100 601 122 Q 609 100 617 122 Q 625 100 633 122 Q 641 100 649 122 Q 657 100 665 122 Q 673 100 681 122 Q 689 100 697 122 Q 705 100 713 122 Q 721 100 729 122 Q 737 100 745 122 Q 753 100 761 122 Q 769 100 777 122 Q 785 100 793 122 Q 801 100 809 122 Q 817 100 825 122 Q 833 100 841 122 Q 849 100 857 122 Q 865 100 873 122 Q 881 100 889 122 Q 897 100 905 122 Q 913 100 921 122 Q 929 100 937 122 Q 945 100 953 122 Q 961 100 969 122 Q 977 100 985 122 Q 993 100 1001 122 Q 1009 100 1017 122 Q 1025 100 1033 122 Q 1041 100 1049 122 Q 1057 100 1065 122 Q 1073 100 1081 122 Q 1089 100 1097 122 Q 1105 100 1113 122 Q 1121 90 1129 112 Q 1137 90 1145 122 Q 1153 100 1161 122 Q 1169 100 1177 122 Q 1185 100 1193 122 Q 1201 100 1209 122 Q 1217 100 1225 122 Q 1233 100 1241 122 Q 1249 100 1257 122 Q 1265 100 1273 122 Q 1281 100 1289 122 Q 1297 100 1305 122 Q 1313 100 1321 122 Q 1329 100 1337 122 Q 1345 61 1353 83" fill="none" stroke="none" />
+  <path id="runPath" d="M 25 122 Q 33 90 41 112 Q 49 90 57 122 Q 65 75 73 97 Q 81 33 89 55 Q 97 33 105 112 Q 113 90 121 122 Q 129 61 137 83 Q 145 18 153 40 Q 161 18 169 97 Q 177 75 185 122 Q 193 90 201 112 Q 209 47 217 69 Q 225 47 233 122 Q 241 75 249 97 Q 257 4 265 26 Q 273 4 281 112 Q 289 90 297 122 Q 305 61 313 83 Q 321 61 329 97 Q 337 75 345 122 Q 353 33 361 55 Q 369 33 377 112 Q 385 90 393 122 Q 401 47 409 69 Q 417 47 425 97 Q 433 75 441 112 Q 449 90 457 122" fill="none" stroke="none" />
 
   <g id="runner">
-    <circle r="7" fill="#4FC3C8" />
-    <circle cx="-3" cy="-2" r="1.4" fill="#1e1408" />
-    <circle cx="3" cy="-2" r="1.4" fill="#1e1408" />
-    <animateMotion dur="14s" repeatCount="indefinite" rotate="auto">
+    <g>
+      <circle cy="-11" r="5.5" fill="#E8D5A0" />
+      <path d="M -4 -5 L 4 -5 L 6 7 L -6 7 Z" fill="#E8D5A0" />
+      <path d="M -4 6 L -8 14 M 4 6 L 8 14" fill="none" stroke="#E8D5A0" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="d" dur="0.34s" repeatCount="indefinite"
+          values="M -4 6 L -8 14 M 4 6 L 8 14;M -4 6 L -1 14 M 4 6 L 11 9;M -4 6 L -8 14 M 4 6 L 8 14" />
+      </path>
+      <path d="M -5 -2 L -11 3 M 5 -2 L 11 2" fill="none" stroke="#E8D5A0" stroke-width="2.5" stroke-linecap="round">
+        <animate attributeName="d" dur="0.34s" repeatCount="indefinite"
+          values="M -5 -2 L -11 3 M 5 -2 L 11 2;M -5 -2 L -10 -5 M 5 -2 L 10 5;M -5 -2 L -11 3 M 5 -2 L 11 2" />
+      </path>
+      <circle cx="-2" cy="-12" r="0.9" fill="#101827" />
+      <circle cx="2" cy="-12" r="0.9" fill="#101827" />
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -2; 0 0" keyTimes="0;0.5;1" dur="0.34s" repeatCount="indefinite" />
+    </g>
+    <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
       <mpath href="#runPath" />
     </animateMotion>
-    <animateTransform attributeName="transform" type="scale" additive="sum"
-      values="1 1; 1.15 0.85; 1 1" keyTimes="0;0.5;1" dur="0.4s" repeatCount="indefinite" />
   </g>
 </svg>

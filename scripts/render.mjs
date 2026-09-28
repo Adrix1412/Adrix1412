@@ -66,14 +66,25 @@ export function buildParkourSVG(counts, opts = {}) {
   <path id="runPath" d="${path.trim()}" fill="none" stroke="none" />
 
   <g id="runner">
-    <circle r="7" fill="${charColor}" />
-    <circle cx="-3" cy="-2" r="1.4" fill="${bg}" />
-    <circle cx="3" cy="-2" r="1.4" fill="${bg}" />
+    <g>
+      <circle cy="-11" r="5.5" fill="${charColor}" />
+      <path d="M -4 -5 L 4 -5 L 6 7 L -6 7 Z" fill="${charColor}" />
+      <path d="M -4 6 L -8 14 M 4 6 L 8 14" fill="none" stroke="${charColor}" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="d" dur="0.34s" repeatCount="indefinite"
+          values="M -4 6 L -8 14 M 4 6 L 8 14;M -4 6 L -1 14 M 4 6 L 11 9;M -4 6 L -8 14 M 4 6 L 8 14" />
+      </path>
+      <path d="M -5 -2 L -11 3 M 5 -2 L 11 2" fill="none" stroke="${charColor}" stroke-width="2.5" stroke-linecap="round">
+        <animate attributeName="d" dur="0.34s" repeatCount="indefinite"
+          values="M -5 -2 L -11 3 M 5 -2 L 11 2;M -5 -2 L -10 -5 M 5 -2 L 10 5;M -5 -2 L -11 3 M 5 -2 L 11 2" />
+      </path>
+      <circle cx="-2" cy="-12" r="0.9" fill="${bg}" />
+      <circle cx="2" cy="-12" r="0.9" fill="${bg}" />
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 -2; 0 0" keyTimes="0;0.5;1" dur="0.34s" repeatCount="indefinite" />
+    </g>
     <animateMotion dur="${duration}s" repeatCount="indefinite" rotate="auto">
       <mpath href="#runPath" />
     </animateMotion>
-    <animateTransform attributeName="transform" type="scale" additive="sum"
-      values="1 1; 1.15 0.85; 1 1" keyTimes="0;0.5;1" dur="0.4s" repeatCount="indefinite" />
   </g>
 </svg>`;
 }

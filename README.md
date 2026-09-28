@@ -2,7 +2,7 @@
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:101827,50:123047,100:4FC3C8&height=230&section=header&text=Adri%C3%A1n%20Dur%C3%A1n&fontSize=52&fontColor=F8FAFC&animation=fadeIn&fontAlignY=36&desc=Full-stack%20developer%20in%20progress%20%C2%B7%20Costa%20Rica&descAlignY=57&descSize=17" width="100%" alt="Adrián Durán — Full-stack developer in progress" />
 
-  <a href="https://github.com/Adrix1412?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=4FC3C8&center=true&vCenter=true&width=650&lines=Building+things+that+actually+do+stuff.;Se%C3%B1asIA+%7C+Full-stack+web+%7C+Computer+vision;Learning+in+public%2C+shipping+with+intent." alt="Animated introduction" /></a>
+  <a href="https://github.com/Adrix1412?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=4FC3C8&center=true&vCenter=true&width=650&lines=Building+things+that+actually+do+stuff.;Atenea+%7C+Full-stack+AI+assistant+platform;Learning+in+public%2C+shipping+with+intent." alt="Animated introduction" /></a>
 
   <p>
     <a href="#-about"><img src="https://img.shields.io/badge/About-0F172A?style=for-the-badge&logo=terminal&logoColor=4FC3C8" alt="About" /></a>
@@ -24,7 +24,7 @@ Adrián Josué Durán Jiménez
 
 $ status
 11th grade · Web Development at COTEPECOS
-Currently building SeñasIA — real-time sign language recognition
+Currently building Atenea — a persistent hybrid AI assistant platform
 
 $ focus --now
 Full-stack systems · accessible technology · computer vision
@@ -49,7 +49,7 @@ Full-stack systems · accessible technology · computer vision
 
 | Project | What it does | Built with |
 |:--|:--|:--|
-| [**SeñasIA**](https://github.com/Adrix1412) | Sign-language platform with real-time gesture recognition and a community workshop space. | `Node.js` `Express` `React` `OpenCV` |
+| [**Atenea**](https://github.com/Adrix1412/Proyecto-Atenea) | Persistent hybrid AI assistant: a reusable core with Windows and Android agents, durable tasks, memory, and tool permissions. | `Python` `FastAPI` `React` `LLMs` |
 | [**GroupQuiz**](https://github.com/Adrix1412/groupquiz) | Team-first real-time quiz game with 18 tactical powers and changing rounds. | `Django` `DRF` `Channels` `React` |
 | [**Códice**](https://github.com/Adrix1412/codice) | Full CRUD book catalog with live dashboard statistics and featured-title carousel. | `Node.js` `Express` `SQLite` `React` |
 | [**Conexión Cote**](https://github.com/Adrix1412/Sistema-De-Conexion-COTE) | Workshop enrollment platform built for COTEPECOS, with student and admin workflows. | `Node.js` `Express` `SQLite` `Railway` |
@@ -57,30 +57,38 @@ Full-stack systems · accessible technology · computer vision
 </div>
 
 <details>
-  <summary><b>More context on SeñasIA</b></summary>
+  <summary><b>More context on Atenea</b></summary>
   <br />
-  Supports LESCO and ASL, JWT authentication, and an OpenCV/Keras model integration for live recognition. It is the project where I am combining web development with accessibility-focused technology.
+  Atenea is the evolution of Alicia: a persistent assistant with a central core, local PC and Android agents, a policy-controlled tool system, memory, and long-running tasks. The first deployment target is a local Windows PC.
 </details>
 
 ## `> cat toolbox.config` <a id="-toolbox"></a>
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,python,java,nodejs,express,react,django,flask,postgres,sqlite,docker,git,github,linux,tailwind,bootstrap&theme=dark&perline=9" alt="Technology toolbox: TypeScript, JavaScript, Python, Java, Node.js, Express, React, Django, Flask, PostgreSQL, SQLite, Docker, Git, GitHub, Linux, Tailwind CSS and Bootstrap" />
+    <img src="https://skillicons.dev/icons?i=ts,js,python,java,kotlin,nodejs,express,react,django,flask,postgres,sqlite,docker,git,github,linux,androidstudio,tailwind,bootstrap&theme=dark&perline=9" alt="Technology toolbox: TypeScript, JavaScript, Python, Java, Kotlin, Node.js, Express, React, Django, Flask, PostgreSQL, SQLite, Docker, Git, GitHub, Linux, Android Studio, Tailwind CSS and Bootstrap" />
   </a>
 </div>
 
 <div align="center">
-  <sub>Also working with REST APIs · WebSockets · n8n automations · Railway · Oracle Data Modeler</sub>
+  <sub>Also working with LLM integrations · REST APIs · WebSockets · n8n automations · Railway · Oracle Data Modeler</sub>
 </div>
 
-## `> git log --profile` <a id="-stats"></a>
+## `> neofetch --workstation` <a id="-workstation"></a>
+
+| Component | Build |
+|:--|:--|
+| CPU | AMD Ryzen 7 8700G |
+| Motherboard | Gigabyte AORUS X870 ICE WiFi |
+| Memory | 32 GB DDR5-6000 MHz |
+| Storage | 1 TB NVMe SSD |
+| Cooling | Darkflash DN360D Nebula liquid cooler |
+| Case | Aerocool P500C |
+| Power supply | [Aerocool Mirage 750 W · Full Modular · 80 Plus Gold](https://www.mercadolibre.com.mx/fuente-750w-aerocool-mirage-full-modular-80-plus-gold/p/MLM19715435) |
+| Displays | Samsung + MSI dual-monitor setup |
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Adrix1412&show_icons=true&hide_border=true&bg_color=0D1117&title_color=4FC3C8&icon_color=E8D5A0&text_color=C9D1D9&ring_color=4FC3C8&include_all_commits=true&count_private=true" alt="Adrix1412 GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adrix1412&layout=compact&hide_border=true&bg_color=0D1117&title_color=4FC3C8&text_color=C9D1D9&langs_count=6" alt="Most used languages" />
-  <br />
-  <img src="https://streak-stats.demolab.com?user=Adrix1412&hide_border=true&background=0D1117&ring=4FC3C8&fire=E8D5A0&currStreakLabel=4FC3C8&sideLabels=C9D1D9&dates=8B949E&sideNums=F8FAFC&currStreakNum=F8FAFC" alt="GitHub contribution streak" />
+  <sub>Windows · VS Code · Android Studio · Docker · local LLM experimentation</sub>
 </div>
 
 ## `> ./activity --parkour` <a id="-activity"></a>
@@ -95,7 +103,7 @@ Full-stack systems · accessible technology · computer vision
 
 ```text
 [✓] Cisco — Ethical Hacking
-[~] Microsoft — SC-900: Security, Compliance & Identity Fundamentals
+[✓] Microsoft — SC-900: Security, Compliance & Identity Fundamentals
 [~] COTEPECOS — Technical Degree in Web Development
 ```
 
