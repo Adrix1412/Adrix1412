@@ -98,7 +98,7 @@ Full-stack systems · accessible technology · computer vision
 ## `> ./activity --parkour` <a id="-activity"></a>
 
 <div align="center">
-  <sub>Contribution activity · animated sprite run</sub>
+  <sub>Real contribution activity · refreshed every 6 hours</sub>
   <br /><br />
   <img src="https://raw.githubusercontent.com/Adrix1412/Adrix1412/main/dist/parkour.gif" width="100%" alt="Itachi running through contribution activity" />
 </div>
